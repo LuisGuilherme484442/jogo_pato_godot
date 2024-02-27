@@ -1,6 +1,7 @@
 extends CharacterBody2D
 var grav = 5
 var speed = 300
+var force = 200
 
 func _process(delta):
 	if !is_on_floor():
